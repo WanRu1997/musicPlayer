@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin : 0;
+}
+.cover{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    content: "";
+    display: block;
+    background: url(https://pic.xiami.net/images/album/img11/187/59618418514ca_9359011_1499563032.jpg) center center no-repeat ;
+    background-size: cover;
+    filter: blur(5px);
+}
+.musicbox{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    
+    margin: 0 auto;
+}
+.music-panel{
+    border: 1px solid #76dba3;
+    height: 125px;
+    text-align: center;
+    position: relative;
+    background-color: aliceblue;
+}
+.music{
+    color: #f06d6a;
+}
+.title{
+    margin: 10px 0 5px 0;
+    font-size: 22px;
+}
+.auther{
+    margin: 0 0 5px 0;
+    font-size: 15px;
+}
+.control{
+    display: inline-block;
+    font-size: 23px;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
+.back{
+    margin:10px 10px;
+}
+.play{
+    margin:10px 10px;
+}
+.forward{
+    margin:10px 10px;
+}
+.progress{
+    margin: 20px 20px;
+    position: relative;
+    
+}
+.bar{
+    margin: 0 20px 0 20px;
+    position: relative;
+}
+.progress-total{
+    height: 4px;
+    background: rgba(0,0,0,0.2);
+}
+.progress-now{
+    height: 4px ;
+    width: 0%;
+    background: #f06d6a;
+    position: absolute;
+    top: 0px;
+}
+.time{
+    margin: 10px 10px ;
+    color: #f06d6a;
+    font-size: 15px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+.music-list{
+    background-color: aliceblue;
+    opacity: 0.8;
+    list-style: none;
+    font-size: 18px;
+}
+.music-list li{
+    padding: 10px 15px 5px 15px;
+    color: #f06d6a;
+}
