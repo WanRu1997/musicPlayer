@@ -44,7 +44,7 @@ audio.onended = function (){
 }
 function getmusicList(callback){
     var xhr = new XMLHttpRequest();
-    xhr.open('GET','https://easy-mock.com/mock/5b51e1519ce5fe26a0a304c1/music/date',true);
+    xhr.open('GET','https://easy-mock.com/mock/5bdbe322edc1b37905bfd618/example/date',true);
     xhr.onload = function(){
         if(xhr.status>=200&&xhr.status<=300||xhr.status===304){
             callback(JSON.parse(this.responseText));
